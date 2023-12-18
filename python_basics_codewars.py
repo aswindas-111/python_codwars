@@ -23,3 +23,18 @@ def sum_digits(number):
     return sum(int(i) for i in str(number) if i.isdigit())
 
 print(sum_digits(22))
+
+
+# CONVERT_ALL_INTO_UPPERCASE:
+def convert_all_into_uppercase(string):
+    return string.upper()
+
+print(convert_all_into_uppercase("Create a method to see whether the string is ALL CAPS."))
+
+
+
+# CREATE A METHOD TO SEE WHETHER THE STRING IS ALL CAPS:
+def is_uppercase(inp):
+    return inp.upper()==inp
+
+
