@@ -44,3 +44,12 @@ def powers_of_two(n):
     return [2**i for i in range(n+1)]
 
 print(powers_of_two(1))
+
+
+
+# WHEN PROVIDED WITH A LETTER, RETURN ITS POSITION IN THE ALPHABET.
+def position(alphabet):
+    return "Position of alphabet: %s" % ("abcdefghijklmnopqrstuvwxyz".find(alphabet) + 1)
+
+
+print(position("v"))
