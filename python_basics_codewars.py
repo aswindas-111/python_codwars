@@ -38,3 +38,9 @@ def is_uppercase(inp):
     return inp.upper()==inp
 
 
+
+# POWERS OF 2 UPTO N(0-N):
+def powers_of_two(n):
+    return [2**i for i in range(n+1)]
+
+print(powers_of_two(1))
