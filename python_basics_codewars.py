@@ -74,3 +74,13 @@ def mul_or_sum(a,b):
         print(a+b)
 
 mul_or_sum(30,20)
+
+
+
+# Printing current and previous number and their sum in a range(a)
+def problem(a):
+    pre_num = 0
+    for i in range(a+1):
+        print(f"current number",i,"prev_number",pre_num,"sum: ",pre_num+i)
+        pre_num=i
+problem(10)
