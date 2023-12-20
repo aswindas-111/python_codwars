@@ -63,3 +63,14 @@ def positive_sum(arr):
         if num > 0:
             sum_positive += num
     return sum_positive
+
+
+# Calculate the multiplication and sum of two numbers
+'''Given two integer numbers, return their product only if the product is equal to or lower than 1000. Otherwise, return their sum.'''
+def mul_or_sum(a,b):
+    if a*b < 1000:
+        print(a*b)
+    else:
+        print(a+b)
+
+mul_or_sum(30,20)
