@@ -53,3 +53,13 @@ def position(alphabet):
 
 
 print(position("v"))
+
+
+
+# You get an array of numbers, return the sum of all of the positives ones.
+def positive_sum(arr):
+    sum_positive = 0
+    for num in arr:
+        if num > 0:
+            sum_positive += num
+    return sum_positive
