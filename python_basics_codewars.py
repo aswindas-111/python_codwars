@@ -84,3 +84,8 @@ def problem(a):
         print(f"current number",i,"prev_number",pre_num,"sum: ",pre_num+i)
         pre_num=i
 problem(10)
+
+
+# given triangle od odd numbers , return sum of each row
+def row_sum_odd_numbers(n):
+    return n ** 3
