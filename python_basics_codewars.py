@@ -89,3 +89,17 @@ problem(10)
 # given triangle od odd numbers , return sum of each row
 def row_sum_odd_numbers(n):
     return n ** 3
+
+
+
+# Define a method hello that returns "Hello, Name!" to a given name, or says Hello, World! if name is not given (or passed as an empty String).
+# Assuming that name is a String and it checks for user typos to return a name with a first capital letter (Xxxx).
+def hello(name=None):
+    if not name:
+        return 'Hello, World!'
+    elif name=='':
+        return 'Hello, World!'
+    elif name:
+        name.lower()
+        return f'Hello, {name.capitalize()}!' 
+    return
