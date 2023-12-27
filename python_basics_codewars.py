@@ -109,4 +109,12 @@ def hello(name=None):
 
 # Define a function that removes duplicates from an array of non negative numbers and returns it as a result.
 def distinct(seq):
-    return list(set(seq))
+    seen = set()
+    result = []
+    
+    for element in seq:
+        if element not in seen:
+            result.append(element)
+            seen.add(element)
+    
+    return result
