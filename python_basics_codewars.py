@@ -103,3 +103,10 @@ def hello(name=None):
         name.lower()
         return f'Hello, {name.capitalize()}!' 
     return
+
+
+
+
+# Define a function that removes duplicates from an array of non negative numbers and returns it as a result.
+def distinct(seq):
+    return list(set(seq))
