@@ -121,8 +121,6 @@ def distinct(seq):
 
 
 
-
-
 # Your code will determine if the number passed is even (or not).
 # The function needs to return either a true or false.
 def is_even(n): 
@@ -130,3 +128,9 @@ def is_even(n):
         return True
     else:
         return False
+    
+
+
+# Build a function that returns an array of integers from n to 1 where n>0.
+def reverse_seq(n):
+    return list(range(n, 0, -1)) 
