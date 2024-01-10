@@ -134,3 +134,8 @@ def is_even(n):
 # Build a function that returns an array of integers from n to 1 where n>0.
 def reverse_seq(n):
     return list(range(n, 0, -1)) 
+
+
+# Converting binari number into decimal number
+def bin_to_decimal(inp):
+    return int(inp, 2)
