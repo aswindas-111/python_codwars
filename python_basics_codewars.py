@@ -51,7 +51,6 @@ print(powers_of_two(1))
 def position(alphabet):
     return "Position of alphabet: %s" % ("abcdefghijklmnopqrstuvwxyz".find(alphabet) + 1)
 
-
 print(position("v"))
 
 
