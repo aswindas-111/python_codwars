@@ -136,6 +136,7 @@ def reverse_seq(n):
     return list(range(n, 0, -1)) 
 
 
-# Converting binari number into decimal number
+
+# Converting binari number into decimal number.
 def bin_to_decimal(inp):
     return int(inp, 2)
