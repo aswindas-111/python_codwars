@@ -139,3 +139,8 @@ def reverse_seq(n):
 # Converting binari number into decimal number.
 def bin_to_decimal(inp):
     return int(inp, 2)
+
+
+# Return the number (count) of vowels in the given string.
+def get_count(sentence):
+    return sum([sentence.count(vowels) for vowels in "aeiou"])
